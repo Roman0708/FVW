@@ -1,10 +1,8 @@
 ﻿var initialArray = new string [] {"Russia","Denmark","Kazan","-2"};
 
-int length = initialArray.GetLength(0);
-
 var resultArray = new string[] {};
 
-for (int count = 0; count < length; count++)
+for (int count = 0; count < initialArray.GetLength(0); count++)
 {
     if (initialArray[count].Length <= 3)
     {
