@@ -11,5 +11,5 @@ for (int count = 0; count < initialArray.GetLength(0); count++)
     }
 }
 
-if (resultArray.Length == 0) Console.WriteLine("Нечего выводить");
-else for (int a = 0; a < resultArray.GetLength(0); a++) Console.Write($"{resultArray[a]}, ");
+//if (resultArray.Length == 0) Console.WriteLine("Нечего выводить");
+//else for (int a = 0; a < resultArray.GetLength(0); a++) Console.Write($"{resultArray[a]}, ");
